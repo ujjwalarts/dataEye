@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/textViewStudentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Student Name"
+        android:layout_below="@id/textViewStudentDetails"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextStudentAge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Student Age"
+        android:layout_below="@id/editTextStudentName"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextStudentGrade"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Student Grade"
+        android:layout_below="@id/editTextStudentAge"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Edit button or other actions as needed -->
+
+    <Button
+        android:id="@+id/buttonEditDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStudentGrade"
+        android:layout_marginTop="16dp"
+        android:text="Edit Details"
+         />
+
+</RelativeLayout>

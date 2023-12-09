@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652751761747",
+    "project_id": "dataeye-83a93",
+    "storage_bucket": "dataeye-83a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652751761747:android:1e7785aef4b5398d6371a6",
+        "android_client_info": {
+          "package_name": "com.example.dataeye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8MBHngeb_bUI9BK73LEfAEbsRh11NYHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
